@@ -35,6 +35,11 @@ class Mpengguna extends Sakip_model
 		return $this->db->get_where('users', array('id_user' => $param))->row();
 	}
 
+	public function Cek($param = 0)
+	{
+		return $this->db->get_where('users', array('id_user' => $param))->row();
+	}
+
 	public function email_check($param = 0)
 	{
 		if($param == FALSE)

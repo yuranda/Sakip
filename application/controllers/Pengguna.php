@@ -86,6 +86,7 @@ class Pengguna extends Sakip {
 
 	public function update($param = 0)
 	{
+
 		$this->page_title->push('Pengguna Sistem', 'Sunting Data Pengguna Sistem');
 
 		$this->breadcrumbs->unshift(2, 'Data Pengguna Sistem', "pengguna");
