@@ -45,12 +45,12 @@ class Login extends CI_Controller
 
               $this->session->set_userdata( $user_session );
 
-          if( $this->input->post('from_url') != '' )
-          {
-            redirect($this->input->post('from_url'));
-          } else {
-            redirect(base_url('home'));
-          }
+                    if( $this->input->post('from_url') != '' )
+                    {
+                      redirect($this->input->post('from_url'));
+                    } else {
+                      redirect(base_url('home'));
+                    }
         } else {
           $this->template->alert(
             ' Maaf! Kombinasi Username / E-Mail dengan password anda tidak valid.', 
