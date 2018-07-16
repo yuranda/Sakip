@@ -66,7 +66,7 @@ class Login extends CI_Controller
     }
 
     $this->data = array(
-      'title' => "E-SAKIP Sistem Informasi Akuntabilitas Kinerja Instalasi Pemerinta", 
+      'title' => "Login E-SAKIP Sistem Informasi Akuntabilitas Kinerja Instalasi Pemerinta", 
     );
 
     $this->load->view('Sakip/login', $this->data);
